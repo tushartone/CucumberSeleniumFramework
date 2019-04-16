@@ -88,7 +88,7 @@ public class DealStepWithMapDefination {
     	JavascriptExecutor js = (JavascriptExecutor)driver;
     	js.executeScript("arguments[0].click()",saveBtn);
     	
-    	//Again move to new deal
+    	//Again move to new deal so it can repeat the same mouse over
     	Actions action = new Actions(driver);
         action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Deals')]"))).build().perform();
         driver.findElement(By.xpath("//a[contains(text(),'New Deal')]")).click();
