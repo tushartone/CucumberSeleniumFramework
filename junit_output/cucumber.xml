@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="39.472451">
-<testcase classname="Free CRM Deal data Creation" name="FreeCRM create a new deal scenarion" time="39.472451">
-<system-out><![CDATA[Given users is allready on FreeCRM login Page...............................passed
-When title of login page is FreeCRM.........................................passed
-Then user enters username and password......................................passed
-And user clicks on login button.............................................passed
-And user is on homepage.....................................................passed
-And user moves to new deal page.............................................passed
-And user click on new deal button...........................................passed
-And user enters deal details................................................passed
-And Close the browser.......................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.391855">
+<testcase classname="Frre CRM application Testing" name="Login with invalid username and password" time="0.391855">
+<system-out><![CDATA[Given This is invalid login test............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
